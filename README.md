@@ -6,7 +6,8 @@ This project is a simple router configured with a static routing table. The rout
 - To run `./sr`
 
 ## Topology
-To test router functionality, [Mininet](http://mininet.org/) is used. Mininet allows to emulate a topology on a single machine. It provides the needed isolation between the emulated nodes so that router node can process and forward real Ethernet frames between the hosts like a real router. Following topology is emulated on Mininet.
+To test router functionality, [Mininet](http://mininet.org/) is used. Mininet allows to emulate a topology on a single machine. It provides the isolation between the emulated nodes so that router node can process and forward real Ethernet frames between the hosts like a real router. Following topology is emulated on Mininet.
+```
 -------------                ------------
 | server1   |                | server2  |
 -------------                ------------
@@ -21,3 +22,4 @@ To test router functionality, [Mininet](http://mininet.org/) is used. Mininet al
                ------------                  
                | client   |                  
                ------------
+```
